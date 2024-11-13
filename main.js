@@ -1,0 +1,5 @@
+
+let player;
+let dealer;
+
+
