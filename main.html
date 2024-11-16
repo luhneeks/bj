@@ -8,12 +8,19 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<!-- could potentially be one count? -->
+    <div id="dealerCount"></div>
+    <div id="playerCount"></div>
+    <!-- game interaction is here? -->
     <div id="game-container">
         <h1>Blackjack Game</h1>
-        <div id="output"></div>
-        <button onclick="hit()">Hit</button>
-        <button onclick="stand()">Stand</button>
-        <button onclick="startGame()">New Game</button>
+        <button id="hit-button" onclick="hit()">Hit</button>
+        <button id="stand-button" onclick="stand()">Stand</button>
+        <button id="new-game-button" onclick="startGame()">New Game</button>
+    </div>
+        <!-- //for now one player// -->
+    <div id="bet-container">
+        <div id="playerOne"></div>
     </div>
     <script src="main.js"></script>
 </body>
